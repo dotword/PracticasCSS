@@ -1,3 +1,17 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CSS general */
+main {
+    margin: 32px;
+}
+header {
+    margin-bottom: 24px;
+}
+
 /* Index */
 #intro {
     font-style: italic;
@@ -14,9 +28,24 @@
     border-radius: 50%;
 }
 /* About */
+.listas {
+    margin: 24px 0;
+    padding: 16px;
+    min-width: 60%;
+}
+.listas li {
+    margin-left: 48px;
+}
 iframe {
     border: 2px solid black;
     border-radius: 10px;
 }
   
 /* Contact */
+address {
+    margin: 16px;
+}
+fieldset {
+    margin-bottom: 24px;
+    padding: 16px;
+}

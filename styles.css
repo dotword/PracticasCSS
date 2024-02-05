@@ -5,14 +5,41 @@
     box-sizing: border-box;
 }
 /* CSS general */
+html {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    background-color: #bcb;
+    max-width: 1200px;
+    min-height: 100vh;
+}
 main {
-    margin: 32px;
+    padding: 2rem;
+    background-color: #fff;
 }
 header {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 /* Index */
+#inicio {
+    background-image: url("/imagenes/image.png");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+#bg-inicio {
+    width: 50%;
+    min-width: 300px;
+    border-radius: 10px;
+    color: #fff;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0.8);
+}
 #intro {
     font-style: italic;
     font-size: 1.2rem;
@@ -29,12 +56,12 @@ header {
 }
 /* About */
 .listas {
-    margin: 24px 0;
-    padding: 16px;
+    margin: 1.5rem 0;
+    padding: 1rem;
     min-width: 60%;
 }
 .listas li {
-    margin-left: 48px;
+    margin-left: 3rem;
 }
 iframe {
     border: 2px solid black;
@@ -43,9 +70,9 @@ iframe {
   
 /* Contact */
 address {
-    margin: 16px;
+    margin: 1rem;
 }
 fieldset {
-    margin-bottom: 24px;
-    padding: 16px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
 }

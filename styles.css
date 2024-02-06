@@ -100,6 +100,7 @@ header nav a:hover {
 iframe {
     border: 2px solid black;
     border-radius: 10px;
+    width: 60%;
 }
   
 /* Contact */
@@ -139,6 +140,7 @@ textarea {
     border: none;
     border-radius: 3px;
     background-color: whitesmoke;
+    width: 100%;
 }
 .one-line {
     display: flex;
@@ -153,4 +155,28 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* MEDIA QUERYS */
+/* Tamaño de pantalla máximo de 500px */
+@media screen and (max-width:500px) {
+    html {
+        font-size: 12px;
+    }
+    header h1 {
+        margin-left: 1rem;
+    }
+    header nav ul {
+        margin-right: 1rem;
+        gap: 10px;
+    }
+    main {
+        padding: 1rem;
+    }
+    iframe {
+        width: 90%;
+    }
+    .listas li {
+        margin-left: 1.5rem;
+    }
 }
